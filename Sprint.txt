@@ -1,0 +1,56 @@
+Objectif 1 : Creer une app qui donne le % de fake news d'un @ avec les graphiques representant son taux de fake news et le taux de fake news en moyenne
+	
+	Sprint 1 : Collecter la base de donner 
+		Fonctionalité 1 : Prendre en input un @ et renvoyer ses 100 derniers tweets dans un tableau (avec les rt,like,@)
+		Fonctionalité 2 : Renvoyer une base de données (meme format que pour fonctionalité 1) pour 200 @ choisi au hasard ou arbitrairement
+	
+	Sprint 2 : Détection des tweet fake ou réel dans notre base de données
+		Fonctionalité 3 : Création du model de détection de Fake news
+		Focntionalité 4 : Application du modèle sur nos bases de données
+	
+	Sprint 3 : traintement des données
+		Fonctionalité 5 : Mise sous forme de tableaux (colonne1 : tweet, colonne 2 : crédibilité du tweet (1 ou 0))
+	
+	Sprint 4 : Visualisation des resultats 
+		Fonctionalité 6 : Création d'un graphique circulaire avec plotly express donnant le pourcentage de fake news d'un @
+		Focntionalité 7 : Création d'un graphique circulaire donnant le pourcentage de fake news en moyenne des 200@ choisi
+	
+	Sprint 5 : Création d'une application pour afficher les résultats
+		Focntionalité 8 : Demander le @ d'un personne et indique si ce compte est fiable et à combien de % en rajoutant à l'appui les graphiques tracé précedemment
+
+
+Objectif 2 : Améliorer l'application en analysant l'influence du sentiment d'un tweet sur la probabilité de tweeté une fake news
+	
+	Sprint 6 : Détection des sentiments
+		Fonctionalité 9 : Création du model de détection de sentiment
+		Focntionalité 10 : Application du modèle sur nos bases de données
+	
+	Sprint 7 : Visualisation des resultats
+		Fonctionalité 11 : Visualisation de l'influence du sentiment du tweet sur la tendance à tweeter une fake news (diagramme en barre)
+	
+	Sprint 8 : Mis à jour de l'app
+		Fonctionalité 12 : Ajout d'un espace(div) pour mettre notre nouveau graphique sur notre application
+
+
+Objectif 3 : Possibilité d'analyser plusieurs compte à la fois
+	
+	Sprint 9 : Création de nouveau tableaux adaptés 
+		Fonctionalité 13 : possibilité de pouvoir prendre en input autant d'@ que souhaité
+	
+	Sprint 10 : Visualisation adaptés
+		Fonctionalité 14 : Faire de nouveaux graphique interessant à étudier pour plusieurs @ (graphique en barre)
+	
+	Sprint 11 : Mis à jour de l'app
+		Fonctionalité 15 : rajouter sur la page d'acceuil la possibilité de sélectionner plusieurs @
+
+
+Objectif 4 : Trouver les cercles d'amis non fiable
+	
+	Sprint 12 : Collecte des données
+		Focntionalité 16 : Prendre un @ en input et faire un tableau des 100 derniers tweet de tous ses abonnés/abonnement
+	
+	Sprint 13 : Traitement des données
+		Fonctionalité 17 : Print le % d'abonnement/abonné pas fiable de cet @
+	
+	Sprint 14 : affichage des resultat
+		Fonctionalité 18 : Affichage du resultat (print) sur le dash (page des resultats)
