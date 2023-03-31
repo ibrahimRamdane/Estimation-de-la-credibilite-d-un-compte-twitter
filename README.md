@@ -1,4 +1,4 @@
-# estimation_de_la_credibilité_d_un_compte_twitter
+# estimation_de_la_crédibilité_d_un_compte_twitter
 
 
 
